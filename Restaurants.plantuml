@@ -1,0 +1,33 @@
+@startuml name Restaurant UML Diagram
+
+class Restaurant{
+    id: Integer
+    name: String
+    menus: Array<Menu>
+    ---
+    addMenu(<Menu>)
+    removeMenu(<Menu>)
+}
+
+class Menu{
+    id: Integer
+    name: String
+    items: Array<Item>
+    ---
+    addItem(<Item>)
+    removeItem(<Item>)
+
+}
+
+class Item{
+    id: Integer
+    name: String
+    price: Float
+}
+
+
+Restaurant --{ Menu
+Menu --{ Item
+
+
+@enduml
