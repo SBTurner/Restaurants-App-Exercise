@@ -4,7 +4,9 @@
   "description": "",
   "main": "Restaurant_Model.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test:report": "jest --coverage=true"
+
   },
   "author": "",
   "license": "ISC",
