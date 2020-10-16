@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
